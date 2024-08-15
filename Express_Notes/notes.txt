@@ -1,0 +1,8 @@
+ Express is node js framework used for build restful apis.
+
+ HTTP methods in Express
+
+ 1- GET (Read Data)
+ 2- POST (Insert Data)
+ 3- PUT (UPDATE DATA)
+ 4 - DELETE (Delete Data)

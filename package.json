@@ -1,0 +1,17 @@
+{
+  "name": "node-and-express-js",
+  "version": "1.0.0",
+  "description": "Complete notes of Node js and express js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
