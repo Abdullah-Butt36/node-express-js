@@ -1,5 +1,11 @@
 const express = require('express');
 const app = express();
+const path = require('path')
+
+app.use(express.static('./public'))
+app.get('/Page' , (req , res) => {
+    res.sendFile(path.resolve(__dirname , './navbar-app/index.html'))
+})
 
 app.get('/' , (req , res) => {
     console.log("Function Called")

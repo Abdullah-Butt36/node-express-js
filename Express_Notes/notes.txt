@@ -5,4 +5,13 @@
  1- GET (Read Data)
  2- POST (Insert Data)
  3- PUT (UPDATE DATA)
- 4 - DELETE (Delete Data)
+ 4- DELETE (Delete Data)
+
+ Middle_Wares in Express
+ app.use(express.static("folder_name")); // it access the complete public folder on web page
+
+ params in Express
+ // it will  display the name in web page which we change in pathname
+ app.get('./home:name' , (req , res) => {
+    res.send('Hello world' + req.params.name)
+ })
